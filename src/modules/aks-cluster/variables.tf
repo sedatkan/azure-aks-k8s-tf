@@ -57,7 +57,7 @@ variable "max_pods" {
 
 #Network Profile config
 variable "network_plugin" {
-  description = "network plugin for kubenretes network overlay (azure or calico)"
+  description = "network plugin for kubernetes network overlay (azure or calico)"
   default     = "azure"
 }
 
