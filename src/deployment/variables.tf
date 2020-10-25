@@ -9,17 +9,17 @@ variable "node_count" {
 
 variable "dns_prefix" {
   description = "DNS Suffix"
-  default     = "runitoncloud"
+  default     = "jkubcls"
 }
 
 variable cluster_name {
   description = "AKS cluster name"
-  default     = "runItOnCloud"
+  default     = "jenkinsonkubernetes"
 }
 
 variable resource_group_name {
   description = "name of the resource group to deploy AKS cluster in"
-  default     = "runitoncloud"
+  default     = "jenkinsonkubernetes"
 }
 
 variable location {
@@ -33,7 +33,7 @@ variable log_analytics_workspace_name {
 
 # refer https://azure.microsoft.com/global-infrastructure/services/?products=monitor for log analytics available regions
 variable log_analytics_workspace_location {
-  default = "eastus"
+  default = "westeurope"
 }
 
 # refer https://azure.microsoft.com/pricing/details/monitor/ for log analytics pricing
@@ -43,12 +43,12 @@ variable log_analytics_workspace_sku {
 
 variable subnet_name {
   description = "subnet id where the nodes will be deployed"
-  default     = "runitoncloud-subnet"
+  default     = "jenkinsonkube-subnet"
 }
 
 variable vnet_name {
   description = "vnet id where the nodes will be deployed"
-  default     = "runitoncloud-vnet"
+  default     = "jenkinsonkube-vnet"
 }
 
 variable subnet_cidr {
