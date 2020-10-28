@@ -35,7 +35,7 @@ This guide walks you through how to the following tasks:
 * You have basic knowledge of Azure
 * Have basic knowledge of Kubernetes
 * You have Terraform installed in your local machine
-* Azure subscription: Sign up for an Azure account, if you don’t own one already. You will receive USD200 in free credits.
+* Azure subscription:
 * Configure Terraform: Follow the directions in the article, Terraform and configure access to Azure
 
 To create your Terraform-provisioned AKS cluster, you will typically follow these steps:
@@ -53,7 +53,7 @@ To create your Terraform-provisioned AKS cluster, you will typically follow thes
 
 * The first step is to obtain the source code from Github.
 ```
-git clone https://github.com/AymenSegni/azure-aks-k8s-tf.git
+git clone https://github.com/sedatkan/azure-aks-k8s-tf.git
 cd azure-aks-k8s-tf
 
 ```
@@ -69,6 +69,3 @@ terraform plan
 terraform apply
 `````
 
-## More details
-
-You can find the full guide in my Infra as Code lab on [Run IT on Cloud](http://aymen-segni.com/index.php/2019/12/24/create-a-kubernetes-cluster-with-azure-aks-using-terraform/) 
